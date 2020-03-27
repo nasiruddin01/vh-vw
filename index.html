@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>V Height & V Width Units</title>
+    <style>
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'segoe UI', Tahoma, Geneva,Verdana,sans-serif;
+}
+header {
+  background: #333 url(https://source.unsplash.com/daily)
+  no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 0 2rem;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+}
+header h1 {
+  font-size: 3rem;
+}
+header p {
+  margin: 1rem 0;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #f4f4f4;
+  color; #333;
+  padding: 0.75rem 2rem;
+}
+section {
+  padding: 2rem;
+}
+@nedia(max-height: 450px){
+  header {
+    paddingh-top: 5rem;
+  }
+}
+    </style>
+  </head>
+  <body>
+<header>
+  <h1>Welcome To Our Website</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<a href="#" class="btn">Find Out More</a>
+</header>
+  </body>
+</html>
